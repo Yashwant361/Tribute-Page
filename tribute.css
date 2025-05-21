@@ -1,0 +1,75 @@
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     background-color: rgb(216, 199, 199);
+ }
+
+ .wrapper {
+     text-align: center;
+ }
+
+ #image img {
+     max-width: 100%;
+  height: auto;
+
+
+ }
+
+ #Timeline {
+     text-align: center;
+ }
+
+ #Inspirational_Quotes {
+     text-align: center;
+ }
+
+ p.about {
+     padding-left: 3%;
+     padding-right: 3%;
+     /* width: 300px;
+    /* margin: 0 auto; */
+     /* text-align: right; */
+ }
+
+ ul.dates {
+     padding-left: 4%;
+ }
+
+ ol.Quotes {
+     padding-left: 4%;
+ }
+
+ .name {
+     padding-left: 1%;
+     /* display: block; */
+     /* text-align: right; */
+     font-weight: bold;
+     font-style: italic;
+     /* optional: removes italic if not needed */
+     /* color: darkblue; */
+     margin-top: 5px;
+ }
+
+ .bio {
+     padding-left: 1%;
+     /* display: block; */
+     /* text-align: right; */
+     font-weight: bold;
+     font-style: italic;
+     /* optional: removes italic if not needed */
+     /* color: darkblue; */
+     margin-top: 5px;
+ }
+
+ .footer {
+     padding-left: 1%;
+     display: block;
+     text-align: center;
+     font-weight: bold;
+     font-style: normal;
+     /* optional: removes italic if not needed */
+     color: darkblue;
+     margin-top: 5px;
+ }
