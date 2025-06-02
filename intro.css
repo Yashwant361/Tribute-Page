@@ -87,3 +87,102 @@ footer {
     color: #dae1e6;
     text-align: center;
 }
+
+
+/* Responsive breakpoints */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 5px;
+    }
+
+    .wrapper {
+        padding: 15px;
+    }
+
+    .header-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .photo-container {
+        align-self: center;
+    }
+
+    img {
+        max-width: 120px;
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-details {
+        text-align: left;
+    }
+
+    ul,
+    ol {
+        margin-left: 15px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+    table {
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        max-width: 100px;
+    }
+
+    .skills-list li {
+        padding: 8px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        font-size: 0.75rem;
+    }
+
+    table {
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .wrapper {
+        padding: 8px;
+        margin: 5px;
+    }
+
+    body {
+        padding: 2px;
+    }
+
+    table {
+        min-width: 350px;
+    }
+}
